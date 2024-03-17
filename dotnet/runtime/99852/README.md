@@ -7,21 +7,21 @@ build.cmd -s clr+libs -c release
 src\tests\build.cmd Release generatelayoutonly
 ```
 
-Then run Benchmark with:
+## PR
 
 ```
 dotnet run -c release -- --coreRun F:\externsrc\dotnet\runtime\artifacts\tests\coreclr\windows.x64.Release\Tests\Core_Root\corerun.exe
-dotnet run -c release -- --coreRun F:\externsrc\dotnet\runtime.main\artifacts\tests\coreclr\windows.x64.Release\Tests\Core_Root\corerun.exe
 ```
-
-
-## PR
 
 | Method           | Mean     | Error   | StdDev  |
 |----------------- |---------:|--------:|--------:|
 | GetCurrentMethod | 639.9 ns | 3.62 ns | 3.38 ns |
 
 ## Merge Base
+
+```
+dotnet run -c release -- --coreRun F:\externsrc\dotnet\runtime.main\artifacts\tests\coreclr\windows.x64.Release\Tests\Core_Root\corerun.exe
+```
 
 | Method           | Mean     | Error   | StdDev  |
 |----------------- |---------:|--------:|--------:|
