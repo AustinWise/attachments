@@ -1,10 +1,7 @@
 
 # What is this
 
-For benchmarking these PRs, when running on WASM.
-
-* dotnet/runtime#80059
-* dotnet/runtime#81644
+For benchmarking this PR, when running on WASM: dotnet/runtime#81644
 
 # How to build and run
 
