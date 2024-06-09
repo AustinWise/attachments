@@ -3,6 +3,8 @@ using BenchmarkDotNet.Running;
 
 BenchmarkRunner.Run<Perf_ReRegisterForFinalize>(args: args);
 
+[DisassemblyDiagnoser(printSource: true)]
+[ShortRunJob]
 public class Perf_ReRegisterForFinalize
 {
     private static readonly object notFinializableObject = new();

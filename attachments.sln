@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryGetHashCodeBenchmark (2)
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "99852", "dotnet\runtime\99852\99852.csproj", "{5BC12DAC-8C44-4218-B670-CD001F788D6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterForFinalization", "dotnet\runtime\103211\RegisterForFinalization.csproj", "{9893ED9A-D919-431D-A1FB-6847AB1D8934}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{5BC12DAC-8C44-4218-B670-CD001F788D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BC12DAC-8C44-4218-B670-CD001F788D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BC12DAC-8C44-4218-B670-CD001F788D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9893ED9A-D919-431D-A1FB-6847AB1D8934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9893ED9A-D919-431D-A1FB-6847AB1D8934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9893ED9A-D919-431D-A1FB-6847AB1D8934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9893ED9A-D919-431D-A1FB-6847AB1D8934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{B062527D-56CD-46C1-AED3-C11C4D446775} = {63F6C9E7-9298-4D62-A56E-8379A5E31670}
 		{45883EB3-8F16-4E35-8172-022EA1746610} = {63F6C9E7-9298-4D62-A56E-8379A5E31670}
 		{5BC12DAC-8C44-4218-B670-CD001F788D6C} = {63F6C9E7-9298-4D62-A56E-8379A5E31670}
+		{9893ED9A-D919-431D-A1FB-6847AB1D8934} = {63F6C9E7-9298-4D62-A56E-8379A5E31670}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6258BC1-ECA7-49F8-8711-A3076B6C4F4F}
