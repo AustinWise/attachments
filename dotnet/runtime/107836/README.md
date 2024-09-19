@@ -51,9 +51,9 @@ dotnet run -c release -- --coreRun F:\externsrc\dotnet\runtime\artifacts\tests\c
 
 | Method                | NumberOfProceses | Mean       | Error     | StdDev     |
 |---------------------- |----------------- |-----------:|----------:|-----------:|
-| **LaunchStandard**        | **1**                |   **5.766 ms** | **0.0796 ms** |  **0.0745 ms** |
-| LaunchWithRedirection | 1                |   5.656 ms | 0.1119 ms |  0.1289 ms |
-| **LaunchStandard**        | **16**               |  **14.422 ms** | **0.1775 ms** |  **0.1661 ms** |
-| LaunchWithRedirection | 16               |  32.850 ms | 0.6493 ms |  0.6377 ms |
-| **LaunchStandard**        | **256**              | **146.740 ms** | **3.5220 ms** | **10.2738 ms** |
-| LaunchWithRedirection | 256              | 486.269 ms | 8.6506 ms |  7.2236 ms |
+| LaunchStandard        | 1                |   6.057 ms | 0.0874 ms |  0.0818 ms |
+| LaunchWithRedirection | 1                |   6.088 ms | 0.0956 ms |  0.0894 ms |
+| LaunchStandard        | 16               |  14.736 ms | 0.1387 ms |  0.1298 ms |
+| LaunchWithRedirection | 16               |  37.486 ms | 0.3947 ms |  0.3499 ms |
+| LaunchStandard        | 256              | 136.704 ms | 2.6484 ms |  2.6010 ms |
+| LaunchWithRedirection | 256              | 513.196 ms | 9.7459 ms | 10.8325 ms |
