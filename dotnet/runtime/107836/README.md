@@ -28,12 +28,12 @@ dotnet run -c release
 
 | Method                | NumberOfProceses | Mean       | Error     | StdDev    |
 |---------------------- |----------------- |-----------:|----------:|----------:|
-| **LaunchStandard**        | **1**                |   **5.474 ms** | **0.0927 ms** | **0.0867 ms** |
-| LaunchWithRedirection | 1                |   5.593 ms | 0.1062 ms | 0.1090 ms |
-| **LaunchStandard**        | **16**               |  **30.802 ms** | **0.3729 ms** | **0.3488 ms** |
-| LaunchWithRedirection | 16               |  31.057 ms | 0.2395 ms | 0.2000 ms |
-| **LaunchStandard**        | **256**              | **469.180 ms** | **5.7967 ms** | **5.1387 ms** |
-| LaunchWithRedirection | 256              | 474.595 ms | 5.7172 ms | 5.3479 ms |
+| LaunchStandard        | 1                |   6.157 ms | 0.0873 ms | 0.0817 ms |
+| LaunchWithRedirection | 1                |   6.213 ms | 0.0862 ms | 0.0806 ms |
+| LaunchStandard        | 16               |  34.612 ms | 0.1935 ms | 0.1715 ms |
+| LaunchWithRedirection | 16               |  34.820 ms | 0.1758 ms | 0.1559 ms |
+| LaunchStandard        | 256              | 490.711 ms | 3.3823 ms | 3.1638 ms |
+| LaunchWithRedirection | 256              | 495.615 ms | 4.5181 ms | 4.2263 ms |
 
 ### PR
 
