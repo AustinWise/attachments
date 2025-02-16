@@ -7,6 +7,13 @@ build.cmd -s clr+libs -c release
 src\tests\build.cmd Release generatelayoutonly
 ```
 
+Since this PR adds a new API, some copies of System.Diagnostics.Process.dll assemblies have to be copied over from the dotnet/runtime into the SDK.
+
+| From dotnet/runtime folder                                                                      | to SDK folder                                                       |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| artifacts\bin\System.Diagnostics.Process\ref\Release\net10.0\                                   | packs\Microsoft.NETCore.App.Ref\10.0.0-alpha.1.25073.13\ref\net10.0 |
+| artifacts\bin\System.Diagnostics.Process\Release\net10.0-windows\System.Diagnostics.Process.dll | shared\Microsoft.NETCore.App\10.0.0-alpha.1.25073.13                |
+
 ## Benchmark results
 
 ```batch
