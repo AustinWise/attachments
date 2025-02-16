@@ -1,9 +1,9 @@
 ﻿using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Running;
-using BenchmarkDotNet.Jobs;
-using System.Diagnostics;
-using BenchmarkDotNet.Toolchains.CoreRun;
 using BenchmarkDotNet.Configs;
+using BenchmarkDotNet.Jobs;
+using BenchmarkDotNet.Running;
+using BenchmarkDotNet.Toolchains.CoreRun;
+using System.Diagnostics;
 using System.Runtime.Versioning;
 
 if (!OperatingSystem.IsWindows())
@@ -18,7 +18,7 @@ var prJob = CreateCoreRunJob("PR", @"F:\externsrc\dotnet\runtime\artifacts\tests
 BenchmarkRunner.Run<ProcessLaunchBenchmarks>(
     DefaultConfig.Instance.
     AddJob(mainJob.AsBaseline())
-    .AddJob(prJob))
+    .AddJob(prJob));
 
 return 0;
 
