@@ -1,542 +1,542 @@
-## .NET 10.0.0 (10.0.0-rc.2.25502.107, 10.0.25.50307), X64 RyuJIT x86-64-v3 (Job: DefaultJob)
+## .NET 10.0.0 (10.0.0-rc.2.25502.107, 10.0.25.50307), X64 RyuJIT x86-64-v3 (Job: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3))
 
 ```assembly
 ; Benchmarks.GetCallbacksHardCoded()
        push      rbp
        mov       rbp,rsp
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3060
+       mov       rcx,72472B539F08
        mov       [rax],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3078
+       mov       rcx,72472B539F20
        mov       [rax+8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3090
+       mov       rcx,72472B539F38
        mov       [rax+10],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E30A8
+       mov       rcx,72472B539F50
        mov       [rax+18],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E30C0
+       mov       rcx,72472B539F68
        mov       [rax+20],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E30D8
+       mov       rcx,72472B539F80
        mov       [rax+28],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E30F0
+       mov       rcx,72472B539F98
        mov       [rax+30],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3108
+       mov       rcx,72472B539FB0
        mov       [rax+38],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3120
+       mov       rcx,72472B539FC8
        mov       [rax+40],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3138
+       mov       rcx,72472B539FE0
        mov       [rax+48],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3150
+       mov       rcx,72472B539FF8
        mov       [rax+50],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3168
+       mov       rcx,72472B53A010
        mov       [rax+58],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3180
+       mov       rcx,72472B53A028
        mov       [rax+60],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3198
+       mov       rcx,72472B53A040
        mov       [rax+68],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E31B0
+       mov       rcx,72472B53A058
        mov       [rax+70],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E31C8
+       mov       rcx,72472B53A070
        mov       [rax+78],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E31E0
+       mov       rcx,72472B53A088
        mov       [rax+80],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E31F8
+       mov       rcx,72472B53A0A0
        mov       [rax+88],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3210
+       mov       rcx,72472B53A0B8
        mov       [rax+90],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3228
+       mov       rcx,72472B53A0D0
        mov       [rax+98],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3240
+       mov       rcx,72472B53A0E8
        mov       [rax+0A0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3258
+       mov       rcx,72472B53A100
        mov       [rax+0A8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3270
+       mov       rcx,72472B53A118
        mov       [rax+0B0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3288
+       mov       rcx,72472B53A130
        mov       [rax+0B8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E32A0
+       mov       rcx,72472B53A148
        mov       [rax+0C0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E32B8
+       mov       rcx,72472B53A160
        mov       [rax+0C8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E32D0
+       mov       rcx,72472B53A178
        mov       [rax+0D0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E32E8
+       mov       rcx,72472B53A190
        mov       [rax+0D8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3300
+       mov       rcx,72472B53A1A8
        mov       [rax+0E0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3318
+       mov       rcx,72472B53A1C0
        mov       [rax+0E8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3330
+       mov       rcx,72472B53A1D8
        mov       [rax+0F0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3348
+       mov       rcx,72472B53A1F0
        mov       [rax+0F8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3360
+       mov       rcx,72472B53A208
        mov       [rax+100],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3378
+       mov       rcx,72472B53A220
        mov       [rax+108],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3390
+       mov       rcx,72472B53A238
        mov       [rax+110],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E33A8
+       mov       rcx,72472B53A250
        mov       [rax+118],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E33C0
+       mov       rcx,72472B53A268
        mov       [rax+120],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E33D8
+       mov       rcx,72472B53A280
        mov       [rax+128],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E33F0
+       mov       rcx,72472B53A298
        mov       [rax+130],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3408
+       mov       rcx,72472B53A2B0
        mov       [rax+138],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3420
+       mov       rcx,72472B53A2C8
        mov       [rax+140],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3438
+       mov       rcx,72472B53A2E0
        mov       [rax+148],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3450
+       mov       rcx,72472B53A2F8
        mov       [rax+150],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3468
+       mov       rcx,72472B53A310
        mov       [rax+158],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3480
+       mov       rcx,72472B53A328
        mov       [rax+160],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3498
+       mov       rcx,72472B53A340
        mov       [rax+168],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E34B0
+       mov       rcx,72472B53A358
        mov       [rax+170],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E34C8
+       mov       rcx,72472B53A370
        mov       [rax+178],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E34E0
+       mov       rcx,72472B53A388
        mov       [rax+180],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E34F8
+       mov       rcx,72472B53A3A0
        mov       [rax+188],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3510
+       mov       rcx,72472B53A3B8
        mov       [rax+190],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3528
+       mov       rcx,72472B53A3D0
        mov       [rax+198],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3540
+       mov       rcx,72472B53A3E8
        mov       [rax+1A0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3558
+       mov       rcx,72472B53A400
        mov       [rax+1A8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3570
+       mov       rcx,72472B53A418
        mov       [rax+1B0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3588
+       mov       rcx,72472B53A430
        mov       [rax+1B8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E35A0
+       mov       rcx,72472B53A448
        mov       [rax+1C0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E35B8
+       mov       rcx,72472B53A460
        mov       [rax+1C8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E35D0
+       mov       rcx,72472B53A478
        mov       [rax+1D0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E35E8
+       mov       rcx,72472B53A490
        mov       [rax+1D8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3600
+       mov       rcx,72472B53A4A8
        mov       [rax+1E0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3618
+       mov       rcx,72472B53A4C0
        mov       [rax+1E8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3630
+       mov       rcx,72472B53A4D8
        mov       [rax+1F0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3648
+       mov       rcx,72472B53A4F0
        mov       [rax+1F8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3660
+       mov       rcx,72472B53A508
        mov       [rax+200],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3678
+       mov       rcx,72472B53A520
        mov       [rax+208],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3690
+       mov       rcx,72472B53A538
        mov       [rax+210],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E36A8
+       mov       rcx,72472B53A550
        mov       [rax+218],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E36C0
+       mov       rcx,72472B53A568
        mov       [rax+220],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E36D8
+       mov       rcx,72472B53A580
        mov       [rax+228],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E36F0
+       mov       rcx,72472B53A598
        mov       [rax+230],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3708
+       mov       rcx,72472B53A5B0
        mov       [rax+238],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3720
+       mov       rcx,72472B53A5C8
        mov       [rax+240],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3738
+       mov       rcx,72472B53A5E0
        mov       [rax+248],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3750
+       mov       rcx,72472B53A5F8
        mov       [rax+250],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3768
+       mov       rcx,72472B53A610
        mov       [rax+258],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3780
+       mov       rcx,72472B53A628
        mov       [rax+260],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3798
+       mov       rcx,72472B53A640
        mov       [rax+268],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E37B0
+       mov       rcx,72472B53A658
        mov       [rax+270],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E37C8
+       mov       rcx,72472B53A670
        mov       [rax+278],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E37E0
+       mov       rcx,72472B53A688
        mov       [rax+280],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E37F8
+       mov       rcx,72472B53A6A0
        mov       [rax+288],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3810
+       mov       rcx,72472B53A6B8
        mov       [rax+290],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3828
+       mov       rcx,72472B53A6D0
        mov       [rax+298],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3840
+       mov       rcx,72472B53A6E8
        mov       [rax+2A0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3858
+       mov       rcx,72472B53A700
        mov       [rax+2A8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3870
+       mov       rcx,72472B53A718
        mov       [rax+2B0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3888
+       mov       rcx,72472B53A730
        mov       [rax+2B8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E38A0
+       mov       rcx,72472B53A748
        mov       [rax+2C0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E38B8
+       mov       rcx,72472B53A760
        mov       [rax+2C8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E38D0
+       mov       rcx,72472B53A778
        mov       [rax+2D0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E38E8
+       mov       rcx,72472B53A790
        mov       [rax+2D8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3900
+       mov       rcx,72472B53A7A8
        mov       [rax+2E0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3918
+       mov       rcx,72472B53A7C0
        mov       [rax+2E8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3930
+       mov       rcx,72472B53A7D8
        mov       [rax+2F0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3948
+       mov       rcx,72472B53A7F0
        mov       [rax+2F8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3960
+       mov       rcx,72472B53A808
        mov       [rax+300],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3978
+       mov       rcx,72472B53A820
        mov       [rax+308],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3990
+       mov       rcx,72472B53A838
        mov       [rax+310],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E39A8
+       mov       rcx,72472B53A850
        mov       [rax+318],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E39C0
+       mov       rcx,72472B53A868
        mov       [rax+320],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E39D8
+       mov       rcx,72472B53A880
        mov       [rax+328],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E39F0
+       mov       rcx,72472B53A898
        mov       [rax+330],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3A08
+       mov       rcx,72472B53A8B0
        mov       [rax+338],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3A20
+       mov       rcx,72472B53A8C8
        mov       [rax+340],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3A38
+       mov       rcx,72472B53A8E0
        mov       [rax+348],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3A50
+       mov       rcx,72472B53A8F8
        mov       [rax+350],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3A68
+       mov       rcx,72472B53A910
        mov       [rax+358],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3A80
+       mov       rcx,72472B53A928
        mov       [rax+360],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3A98
+       mov       rcx,72472B53A940
        mov       [rax+368],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3AB0
+       mov       rcx,72472B53A958
        mov       [rax+370],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3AC8
+       mov       rcx,72472B53A970
        mov       [rax+378],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3AE0
+       mov       rcx,72472B53A988
        mov       [rax+380],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3AF8
+       mov       rcx,72472B53A9A0
        mov       [rax+388],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3B10
+       mov       rcx,72472B53A9B8
        mov       [rax+390],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3B28
+       mov       rcx,72472B53A9D0
        mov       [rax+398],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3B40
+       mov       rcx,72472B53A9E8
        mov       [rax+3A0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3B58
+       mov       rcx,72472B53AA00
        mov       [rax+3A8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3B70
+       mov       rcx,72472B53AA18
        mov       [rax+3B0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3B88
+       mov       rcx,72472B53AA30
        mov       [rax+3B8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3BA0
+       mov       rcx,72472B53AA48
        mov       [rax+3C0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3BB8
+       mov       rcx,72472B53AA60
        mov       [rax+3C8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3BD0
+       mov       rcx,72472B53AA78
        mov       [rax+3D0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3BE8
+       mov       rcx,72472B53AA90
        mov       [rax+3D8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3C00
+       mov       rcx,72472B53AAA8
        mov       [rax+3E0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3C18
+       mov       rcx,72472B53AAC0
        mov       [rax+3E8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3C30
+       mov       rcx,72472B53AAD8
        mov       [rax+3F0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3C48
+       mov       rcx,72472B53AAF0
        mov       [rax+3F8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3C60
+       mov       rcx,72472B53AB08
        mov       [rax+400],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3C78
+       mov       rcx,72472B53AB20
        mov       [rax+408],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3C90
+       mov       rcx,72472B53AB38
        mov       [rax+410],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3CA8
+       mov       rcx,72472B53AB50
        mov       [rax+418],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3CC0
+       mov       rcx,72472B53AB68
        mov       [rax+420],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3CD8
+       mov       rcx,72472B53AB80
        mov       [rax+428],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3CF0
+       mov       rcx,72472B53AB98
        mov       [rax+430],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3D08
+       mov       rcx,72472B53ABB0
        mov       [rax+438],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3D20
+       mov       rcx,72472B53ABC8
        mov       [rax+440],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3D38
+       mov       rcx,72472B53ABE0
        mov       [rax+448],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3D50
+       mov       rcx,72472B53ABF8
        mov       [rax+450],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3D68
+       mov       rcx,72472B53AC10
        mov       [rax+458],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3D80
+       mov       rcx,72472B53AC28
        mov       [rax+460],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3D98
+       mov       rcx,72472B53AC40
        mov       [rax+468],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3DB0
+       mov       rcx,72472B53AC58
        mov       [rax+470],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3DC8
+       mov       rcx,72472B53AC70
        mov       [rax+478],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3DE0
+       mov       rcx,72472B53AC88
        mov       [rax+480],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3DF8
+       mov       rcx,72472B53ACA0
        mov       [rax+488],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3E10
+       mov       rcx,72472B53ACB8
        mov       [rax+490],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3E28
+       mov       rcx,72472B53ACD0
        mov       [rax+498],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3E40
+       mov       rcx,72472B53ACE8
        mov       [rax+4A0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3E58
+       mov       rcx,72472B53AD00
        mov       [rax+4A8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3E70
+       mov       rcx,72472B53AD18
        mov       [rax+4B0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3E88
+       mov       rcx,72472B53AD30
        mov       [rax+4B8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3EA0
+       mov       rcx,72472B53AD48
        mov       [rax+4C0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3EB8
+       mov       rcx,72472B53AD60
        mov       [rax+4C8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3ED0
+       mov       rcx,72472B53AD78
        mov       [rax+4D0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3EE8
+       mov       rcx,72472B53AD90
        mov       [rax+4D8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3F00
+       mov       rcx,72472B53ADA8
        mov       [rax+4E0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3F18
+       mov       rcx,72472B53ADC0
        mov       [rax+4E8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3F30
+       mov       rcx,72472B53ADD8
        mov       [rax+4F0],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3F48
+       mov       rcx,72472B53ADF0
        mov       [rax+4F8],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3F60
+       mov       rcx,72472B53AE08
        mov       [rax+500],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3F78
+       mov       rcx,72472B53AE20
        mov       [rax+508],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3F90
+       mov       rcx,72472B53AE38
        mov       [rax+510],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3FA8
+       mov       rcx,72472B53AE50
        mov       [rax+518],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3FC0
+       mov       rcx,72472B53AE68
        mov       [rax+520],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E3FD8
+       mov       rcx,72472B53AE80
        mov       [rax+528],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E8000
+       mov       rcx,72472B53AE98
        mov       [rax+530],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E8018
+       mov       rcx,72472B53AEB0
        mov       [rax+538],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E8030
+       mov       rcx,72472B53AEC8
        mov       [rax+540],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E8048
+       mov       rcx,72472B53AEE0
        mov       [rax+548],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E8060
+       mov       rcx,72472B53AEF8
        mov       [rax+550],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E8078
+       mov       rcx,72472B53AF10
        mov       [rax+558],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E8090
+       mov       rcx,72472B53AF28
        mov       [rax+560],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E80A8
+       mov       rcx,72472B53AF40
        mov       [rax+568],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E80C0
+       mov       rcx,72472B53AF58
        mov       [rax+570],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E80D8
+       mov       rcx,72472B53AF70
        mov       [rax+578],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E80F0
+       mov       rcx,72472B53AF88
        mov       [rax+580],rcx
        mov       rax,[rdi+8]
-       mov       rcx,71D1820E8108
+       mov       rcx,72472B53AFA0
        mov       [rax+588],rcx
        mov       rax,[rdi+8]
        pop       rbp
@@ -544,549 +544,12 @@
 ; Total bytes of code 3699
 ```
 
-## .NET 10.0.0 (10.0.0-rc.2.25502.107, 10.0.25.50307), X64 RyuJIT x86-64-v3 (Job: DefaultJob)
+## .NET 10.0.0 (10.0.0-rc.2.25502.107, 10.0.25.50307), X64 RyuJIT x86-64-v3 (Job: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3))
 
 ```assembly
 ; Benchmarks.GetCallbacksVar()
-       push      rbp
-       mov       rbp,rsp
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A452F58
-       mov       [rax],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A452F70
-       mov       [rax+8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A452F88
-       mov       [rax+10],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A452FA0
-       mov       [rax+18],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A452FB8
-       mov       [rax+20],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A452FD0
-       mov       [rax+28],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A452FE8
-       mov       [rax+30],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453000
-       mov       [rax+38],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453018
-       mov       [rax+40],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453030
-       mov       [rax+48],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453048
-       mov       [rax+50],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453060
-       mov       [rax+58],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453078
-       mov       [rax+60],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453090
-       mov       [rax+68],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4530A8
-       mov       [rax+70],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4530C0
-       mov       [rax+78],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4530D8
-       mov       [rax+80],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4530F0
-       mov       [rax+88],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453108
-       mov       [rax+90],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453120
-       mov       [rax+98],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453138
-       mov       [rax+0A0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453150
-       mov       [rax+0A8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453168
-       mov       [rax+0B0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453180
-       mov       [rax+0B8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453198
-       mov       [rax+0C0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4531B0
-       mov       [rax+0C8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4531C8
-       mov       [rax+0D0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4531E0
-       mov       [rax+0D8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4531F8
-       mov       [rax+0E0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453210
-       mov       [rax+0E8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453228
-       mov       [rax+0F0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453240
-       mov       [rax+0F8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453258
-       mov       [rax+100],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453270
-       mov       [rax+108],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453288
-       mov       [rax+110],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4532A0
-       mov       [rax+118],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4532B8
-       mov       [rax+120],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4532D0
-       mov       [rax+128],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4532E8
-       mov       [rax+130],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453300
-       mov       [rax+138],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453318
-       mov       [rax+140],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453330
-       mov       [rax+148],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453348
-       mov       [rax+150],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453360
-       mov       [rax+158],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453378
-       mov       [rax+160],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453390
-       mov       [rax+168],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4533A8
-       mov       [rax+170],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4533C0
-       mov       [rax+178],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4533D8
-       mov       [rax+180],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4533F0
-       mov       [rax+188],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453408
-       mov       [rax+190],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453420
-       mov       [rax+198],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453438
-       mov       [rax+1A0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453450
-       mov       [rax+1A8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453468
-       mov       [rax+1B0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453480
-       mov       [rax+1B8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453498
-       mov       [rax+1C0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4534B0
-       mov       [rax+1C8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4534C8
-       mov       [rax+1D0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4534E0
-       mov       [rax+1D8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4534F8
-       mov       [rax+1E0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453510
-       mov       [rax+1E8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453528
-       mov       [rax+1F0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453540
-       mov       [rax+1F8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453558
-       mov       [rax+200],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453570
-       mov       [rax+208],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453588
-       mov       [rax+210],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4535A0
-       mov       [rax+218],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4535B8
-       mov       [rax+220],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4535D0
-       mov       [rax+228],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4535E8
-       mov       [rax+230],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453600
-       mov       [rax+238],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453618
-       mov       [rax+240],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453630
-       mov       [rax+248],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453648
-       mov       [rax+250],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453660
-       mov       [rax+258],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453678
-       mov       [rax+260],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453690
-       mov       [rax+268],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4536A8
-       mov       [rax+270],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4536C0
-       mov       [rax+278],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4536D8
-       mov       [rax+280],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4536F0
-       mov       [rax+288],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453708
-       mov       [rax+290],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453720
-       mov       [rax+298],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453738
-       mov       [rax+2A0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453750
-       mov       [rax+2A8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453768
-       mov       [rax+2B0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453780
-       mov       [rax+2B8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453798
-       mov       [rax+2C0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4537B0
-       mov       [rax+2C8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4537C8
-       mov       [rax+2D0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4537E0
-       mov       [rax+2D8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4537F8
-       mov       [rax+2E0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453810
-       mov       [rax+2E8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453828
-       mov       [rax+2F0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453840
-       mov       [rax+2F8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453858
-       mov       [rax+300],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453870
-       mov       [rax+308],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453888
-       mov       [rax+310],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4538A0
-       mov       [rax+318],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4538B8
-       mov       [rax+320],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4538D0
-       mov       [rax+328],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4538E8
-       mov       [rax+330],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453900
-       mov       [rax+338],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453918
-       mov       [rax+340],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453930
-       mov       [rax+348],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453948
-       mov       [rax+350],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453960
-       mov       [rax+358],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453978
-       mov       [rax+360],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453990
-       mov       [rax+368],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4539A8
-       mov       [rax+370],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4539C0
-       mov       [rax+378],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4539D8
-       mov       [rax+380],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A4539F0
-       mov       [rax+388],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453A08
-       mov       [rax+390],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453A20
-       mov       [rax+398],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453A38
-       mov       [rax+3A0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453A50
-       mov       [rax+3A8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453A68
-       mov       [rax+3B0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453A80
-       mov       [rax+3B8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453A98
-       mov       [rax+3C0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453AB0
-       mov       [rax+3C8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453AC8
-       mov       [rax+3D0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453AE0
-       mov       [rax+3D8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453AF8
-       mov       [rax+3E0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453B10
-       mov       [rax+3E8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453B28
-       mov       [rax+3F0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453B40
-       mov       [rax+3F8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453B58
-       mov       [rax+400],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453B70
-       mov       [rax+408],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453B88
-       mov       [rax+410],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453BA0
-       mov       [rax+418],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453BB8
-       mov       [rax+420],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453BD0
-       mov       [rax+428],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453BE8
-       mov       [rax+430],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453C00
-       mov       [rax+438],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453C18
-       mov       [rax+440],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453C30
-       mov       [rax+448],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453C48
-       mov       [rax+450],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453C60
-       mov       [rax+458],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453C78
-       mov       [rax+460],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453C90
-       mov       [rax+468],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453CA8
-       mov       [rax+470],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453CC0
-       mov       [rax+478],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453CD8
-       mov       [rax+480],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453CF0
-       mov       [rax+488],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453D08
-       mov       [rax+490],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453D20
-       mov       [rax+498],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453D38
-       mov       [rax+4A0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453D50
-       mov       [rax+4A8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453D68
-       mov       [rax+4B0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453D80
-       mov       [rax+4B8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453D98
-       mov       [rax+4C0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453DB0
-       mov       [rax+4C8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453DC8
-       mov       [rax+4D0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453DE0
-       mov       [rax+4D8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453DF8
-       mov       [rax+4E0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453E10
-       mov       [rax+4E8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453E28
-       mov       [rax+4F0],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453E40
-       mov       [rax+4F8],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453E58
-       mov       [rax+500],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453E70
-       mov       [rax+508],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453E88
-       mov       [rax+510],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453EA0
-       mov       [rax+518],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453EB8
-       mov       [rax+520],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453ED0
-       mov       [rax+528],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453EE8
-       mov       [rax+530],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453F00
-       mov       [rax+538],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453F18
-       mov       [rax+540],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453F30
-       mov       [rax+548],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453F48
-       mov       [rax+550],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453F60
-       mov       [rax+558],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453F78
-       mov       [rax+560],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453F90
-       mov       [rax+568],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453FA8
-       mov       [rax+570],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453FC0
-       mov       [rax+578],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A453FD8
-       mov       [rax+580],rcx
-       mov       rax,[rdi+8]
-       mov       rcx,7BBF1A458000
-       mov       [rax+588],rcx
-       mov       rax,[rdi+8]
-       pop       rbp
+       mov       rax,77955D002558
        ret
-; Total bytes of code 3699
+; Total bytes of code 11
 ```
 
